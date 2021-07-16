@@ -1,5 +1,9 @@
+
+<<<<<<< HEAD
+=======
 import { getStatus, getSpecies, getOrder, getDisorder, getCharacter, calculeStats, calculeSpecies } from '../src/data.js';
 
+>>>>>>> 5c49c96f9ff9b96f85345631e99da6ef42d23963
 const mockArray = [ {
 
   "name": "Rick Sanchez",
@@ -76,6 +80,14 @@ describe('function getOrder', () => {
   it('retorna  os nomes dos personagens ordenado de AZ', () => {
     const expected = (getOrder(mockArray))
     expect(expected[0].name).toEqual("Alan Rails")
+<<<<<<< HEAD
+=======
+
+  });
+  it('retorna  os nomes dos personagens ordenado de AZ', () => {
+    const expected = (getOrder(mockArray))
+    expect(expected[1].name).toEqual("Alien Googah")
+>>>>>>> 5c49c96f9ff9b96f85345631e99da6ef42d23963
 
   });
 });
@@ -88,12 +100,23 @@ describe('function getDisorder', () => {
   it('retorna  os nomes dos personagens ordenado de ZA', () => {
     const expected = (getDisorder(mockArray))
     expect(expected[0].name).toEqual("Rick Sanchez");
+<<<<<<< HEAD
   });
 
   it('retorna os nomes dos personagens ordenados de ZA', () => {
     const expected = (getDisorder(mockArray))
     expect(expected[1].name).toEqual("Alien Morty");
   })
+=======
+    
+
+  });
+
+  it('retorna  os nomes dos personagens ordenado de ZA', () => {
+    const expected = (getDisorder(mockArray))
+    expect(expected[1].name).toEqual("Alien Morty");
+  });
+>>>>>>> 5c49c96f9ff9b96f85345631e99da6ef42d23963
 });
 
 
@@ -129,4 +152,4 @@ describe('function calculeSpecies', () => {
     const expected = calculeSpecies(mockArray, 'Human')
     expect(expected).toEqual(50)
   });
-});
+}); 

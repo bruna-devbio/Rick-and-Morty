@@ -55,11 +55,12 @@ function calculoAgregadoStatus() {
 }
 
 function getStatusData() {
+                     
+ showCards(getStatus(data.results, status.value));
 
-    showCards(getStatus(data.results, status.value));
+}    
 
-}
-status.addEventListener("change", () => { getStatusData(), calculoAgregadoStatus() });
+status.addEventListener("change", () => {getStatusData(), calculoAgregadoStatus()} );
 
 function calculoAgregadoSpecies() {
 
