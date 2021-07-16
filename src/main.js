@@ -30,7 +30,7 @@ showCards(data.results);
 
 const searchTerm = document.getElementById("characters");
 const status = document.getElementById("status");
-const species= document.getElementById("especie");
+const species = document.getElementById("especie");
 const order = document.getElementById("ordenar");
 const disorder = document.getElementById("desordenar");
 const showStats = document.getElementById("showStats")
@@ -38,12 +38,12 @@ const homeButton = document.getElementById("home");
 
 
 function searchCharacter() {
-    
+
     showCards(getCharacter(data.results, searchTerm.value));
-    
+
 }
 
-searchTerm.addEventListener('keyup', () => {searchCharacter() } );
+searchTerm.addEventListener('keyup', () => { searchCharacter() });
 
 
 
@@ -51,7 +51,7 @@ function calculoAgregadoStatus() {
 
     const stats = calculeStats(data.results, status.value);
     showStats.innerHTML = (`A porcentagem de personagens dessa categoria é de: ${stats} %`);
-    
+
 }
 
 function getStatusData() {
@@ -66,30 +66,30 @@ function calculoAgregadoSpecies() {
 
     const newSpecies = calculeSpecies(data.results, species.value);
     showStats.innerHTML = (`A porcentagem de personagens dessa categoria é de: ${newSpecies} %`);
-    
+
 }
 
-function getSpeciesData(){
+function getSpeciesData() {
 
     showCards(getSpecies(data.results, species.value));
-    
+
 }
-species.addEventListener("change", () => {getSpeciesData(), calculoAgregadoSpecies()} );
+species.addEventListener("change", () => { getSpeciesData(), calculoAgregadoSpecies() });
 
 
-function getOrderData(){
+function getOrderData() {
 
     showCards(getOrder(data.results));
 }
-order.addEventListener("click", () => {getOrderData()} );
+order.addEventListener("click", () => { getOrderData() });
 
 
 function getDisorderData() {
 
     showCards(getDisorder(data.results));
 }
-disorder.addEventListener("click", () => {getDisorderData()} );
- 
+disorder.addEventListener("click", () => { getDisorderData() });
+
 function clear(){
     
     document.location.reload()

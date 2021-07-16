@@ -33,7 +33,6 @@ export const getOrder= (data) =>{
 
 export const getDisorder = (data) => {
 
- 
   let showDisorder = data.sort(function(a,z){
     if(a.name < z.name) {
       return 1;
