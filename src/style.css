@@ -37,6 +37,17 @@ body {
     }
 }
 
+@media (min-width: 320px) and (max-width: 576px) {
+    .text-inicial {
+        font-size: 1.4rem;
+     }
+ 
+     .img {
+        max-width: 50vh;
+        max-height: 50vh;
+     }
+}
+
 @font-face {
     font-family: "RickM";
     src: url("../get-schwifty/get_schwifty.ttf") format("truetype");
