@@ -122,6 +122,10 @@ body {
         width: 100%;
         height: 8vh;
     }
+
+    footer p {
+        padding-top: 1.5vh;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -182,8 +186,75 @@ body {
         width: 100%;
         height: 5vh;
     }
+
+    footer p {
+        padding-top: 1.5vh;
+    }
 }
 
+@media (min-width: 320px) and (max-width: 576px) {
+    .nome {
+        width: 55vh;
+        height: 50vh;
+    }
+
+    .giphy-portal{
+        display: none;
+    }
+    
+    .imagens{
+        display: none;
+        justify-content: center;
+    }
+
+    .input  {
+        height: 5vh;
+        width: 30vh;
+        margin-bottom: 4vh;
+    }
+
+    .botao{
+        width: 18vh;
+        margin: 0.5vh;
+        height: 7vh;
+        font-size: 0.9rem;
+    }
+
+    .info-cards {
+        width: 30vh;
+        height: 43vh;
+    }
+
+    .back img {
+        width: 20vh;
+        margin: 0.5vh auto auto 4vh;
+    }
+    
+    .list {
+        font-size: 1.0rem;
+        padding: 0.2vh;
+    }
+
+    .front img {
+        margin: 2vh auto 2vh 4vh;
+        height: 29vh;
+        width: 20vh;
+    }
+
+    .front li {
+        font-size: 1.0rem;
+        padding: 0.2vh;
+    }
+
+    footer {
+        width: 100%;
+        height: 7vh;
+    }
+
+    footer p {
+        padding-top: 1.5vh;
+    }
+}
 
 .giphy-portal {
     margin-top: 10vh;
@@ -323,8 +394,4 @@ footer {
     color: #11283b;
     text-align: center;
     font-weight: bolder;
-}
-
-footer p {
-    padding: 0.5vh;
 }
