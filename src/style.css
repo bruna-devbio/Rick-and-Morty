@@ -53,7 +53,7 @@ body {
     src: url("../get-schwifty/get_schwifty.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}
+} 
 
 .links {
     display: grid;
