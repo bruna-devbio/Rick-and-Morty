@@ -39,7 +39,7 @@ body {
 
 @font-face {
     font-family: "RickM";
-    src: url("../get-schwifty/get_schwifty.ttf") format("truetype");
+    src: url("./get-schwifty/get_schwifty.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
