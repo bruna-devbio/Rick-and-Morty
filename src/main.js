@@ -6,16 +6,16 @@ import data from './data/rickandmorty/rickandmorty.js';
 
 
 function showCards(data) {
-    document.getElementById('get-cards').innerHTML = data.map((item) => `
+    document.getElementById("get-cards").innerHTML = data.map((item) => `
     <div class="info-cards">
         <div class="front">
           <img src="${item.image}">
-          <li id="name">${item.name}</li>
+          <li class="name">${item.name}</li>
         </div>
         <div class="back">
         <img src="${item.image}">
           <ul class="list">
-            <li id="name-back">Nome:${item.name}</li>
+            <li class="name-back">Nome:${item.name}</li>
             <li class= "list-item">Status:${item.status}</li>
             <li class= "list-item">Espécie:${item.species}</li>
             <li class= "list-item">Origem:${item.origin.name}</li>
@@ -33,7 +33,7 @@ const status = document.getElementById("status");
 const species = document.getElementById("especie");
 const order = document.getElementById("ordenar");
 const disorder = document.getElementById("desordenar");
-const showStats = document.getElementById("showStats")
+const showStats = document.querySelector("showStats");
 const homeButton = document.getElementById("home");
 
 

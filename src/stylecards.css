@@ -208,8 +208,8 @@ body {
     }
 
     .input  {
-        height: 5vh;
-        width: 30vh;
+        height: 6vh;
+        width: 32vh;
         margin-bottom: 4vh;
     }
 
@@ -217,7 +217,7 @@ body {
         width: 18vh;
         margin: 0.5vh;
         height: 7vh;
-        font-size: 0.9rem;
+        font-size: 1.0rem;
     }
 
     .info-cards {
@@ -242,7 +242,7 @@ body {
     }
 
     .front li {
-        font-size: 1.0rem;
+        font-size: 1.3rem;
         padding: 0.2vh;
     }
 
@@ -305,7 +305,7 @@ body {
     justify-content: center;
 }
 
-#showStats {
+.showStats {
     margin: 7vh;
     text-align: center;
     font-family: 'Amatic SC', cursive;
@@ -314,7 +314,7 @@ body {
     font-weight: bolder;
 }
 
-#get-cards {
+.print-cards {
     display: flex;
     flex-flow: wrap;
     align-content: center;
@@ -334,7 +334,7 @@ body {
     position: relative;
 }
 
-#get-cards:hover .info-cards {
+.print-cards:hover .info-cards {
     transform: rotateY(180deg);
 }
 
@@ -378,12 +378,12 @@ body {
     padding: 0.3vh;
 }
 
-#name {
+.name {
     color: rgb(248, 248, 248);
     font-weight: bold;
 }
 
-#name-back {
+.name-back {
     color: #11283b;
     font-weight: bold;
 }
