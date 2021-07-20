@@ -49,7 +49,7 @@ searchTerm.addEventListener('keyup', () => { searchCharacter() });
 
 function calculoAgregadoStatus() {
 
-    const stats = calculeStats(data.results, status.value);
+    const stats = calculeStats(data.results,  status.value);
     showStats.innerHTML = (`A porcentagem de personagens dessa categoria é de: ${stats} %`);
 
 }
