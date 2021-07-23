@@ -305,7 +305,7 @@ body {
     justify-content: center;
 }
 
-.showStats {
+#print-stats {
     margin: 7vh;
     text-align: center;
     font-family: 'Amatic SC', cursive;
