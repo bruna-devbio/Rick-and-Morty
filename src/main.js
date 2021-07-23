@@ -33,7 +33,7 @@ const status = document.getElementById("status");
 const species = document.getElementById("especie");
 const order = document.getElementById("ordenar");
 const disorder = document.getElementById("desordenar");
-const showStats = document.querySelector("showStats");
+const showStats = document.getElementById("print-stats");
 const homeButton = document.getElementById("home");
 
 
