@@ -1,6 +1,6 @@
 # Rick and Morty - Who's this mysterious character?
 
-O objetivo deste projeto é criar uma aplicação web que exibe um conjunto de dados sobre a série. O site permite a visualização, bem como filtrar, ordenar e obter informações estatísticas sobre os personagens da animação. A nossa aplicação está disponível[aqui.] (https://rickandmortydatalovers.netlify.app/src/)
+O objetivo deste projeto é criar uma aplicação web que exibe um conjunto de dados sobre a série. O site permite a visualização, bem como filtrar, ordenar e obter informações estatísticas sobre os personagens da animação. A nossa aplicação está [aqui.](https://rickandmortydatalovers.netlify.app/src/)
 
 ## Índice
 
