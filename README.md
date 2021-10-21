@@ -9,14 +9,16 @@ O objetivo deste projeto é criar uma aplicação web que exibe um conjunto de d
 - [3. Desenvolvimento de layout](#3-desenvolvimento-de-layout)
 - [4. Testes de usuabilidade](#4-testes-de-usuabilidade)
 - [5. Objetivos de aprendizagem](#5-objetivos-de-aprendizagem)
+- [6. Tecnologias utilizadas](#6-tecnologias-utilizadas)
+- 
 ---
 
-## 1. Introdução
+## 📚 1. Introdução
 
 Em 2013, foi lançada <b>Rick and Morty</b>. A série de animação adulta conta as aventuras repletas de ficção científica e comédia de Rick e seu neto não muito brilhante, o Morty. A série é americana e tem sido exibida em várias regiões do mundo, possui boas críticas nos principais sites de avaliação. 
 Rick and Morty se originou de uma paródia animada em curta metragem do filme <b>De volta para o futuro</b>.
 
-## 2. Histórias de usuários
+## 📃 2. Histórias de usuários
 
 1º História: para fãs da série
 
@@ -26,7 +28,8 @@ Foi definido que seria relevante ter funcionalidades que pudessem entregar infor
 
 Foi definido que seria relevante ter funcionalidades que pudessem entregar informações sobre as espécies e a origem dos personagens, pois esses são temas relacionados à ficção científica. 
 
-## 3. Desenvolvimento de layout
+
+## 💡  3. Desenvolvimento de layout
 
 ### Protótipo de baixa fidelidade
 
@@ -36,17 +39,28 @@ Foi definido que seria relevante ter funcionalidades que pudessem entregar infor
 
 Escolhemos a paleta de cores com base em uma imagem da série. As cores mais utilizadas foram: 
 
-![Paleta de cores -fullwidth](https://ik.imagekit.io/dqzqulyog87g/AdobeColor-Rick_and_Morty_Style_Guide_njdCHtnr9.jpeg)
+<div align="center" style="display: flex">
+  <img alt="paleta-cores" height="150" width="480" src="./src/img/paleta-rickandmorty.jpeg">
+</div>
+<br/>
 
 ### Interface
 
-![Interface](https://ik.imagekit.io/dqzqulyog87g/primeiraimg_g9_xO7CJb.png)
+* ### Desktop
 
-![Interface](https://ik.imagekit.io/dqzqulyog87g/segundaimagem_nVbXx0AFM.png)
+<div align="center" style="display: flex">
+  <img alt="paleta-cores" height="400" width="480" src="./src/img/desktop-rickandmorty.gif">
+</div>
 
-![Interface](https://ik.imagekit.io/dqzqulyog87g/terceiraimagem_BMB60puh6l.png)
+<br/>
 
-## 4. Testes de usabilidade 
+* ### Responsivo
+<div align="center" style="display: flex">
+  <img alt="paleta-cores" height="400" width="480" src="./src/img/responsive-rickandmorty.gif">
+</div>
+<br/>
+
+## 📱 4. Testes de usabilidade 
 O nosso formulário de usabilidade está [aqui.](https://docs.google.com/forms/d/e/1FAIpQLSckY4mi6UL2kKKzzaLvGrMUj-iHYRhPKHg17EGmF9RlWgR9KA/viewform)
 
 As sugestões de alterações enviadas pelos usuários por meio do formulário foram:
@@ -62,7 +76,7 @@ As sugestões de alterações enviadas pelos usuários por meio do formulário f
 
 Todas as alterações foram executadas.
 
-## 5. Objetivos de aprendizagem
+## 🏆  5. Objetivos de aprendizagem
 
 ### HTML e CSS
 
@@ -103,19 +117,64 @@ Todas as alterações foram executadas.
 -  Uso de comandos de git (add | commit | pull | status | push)
 -  Gerenciar repositórios de GitHub (clone | fork | gh-pages)
 -  Colaboração no Github (branches | pull requests | |tags)
+<br/>
 
-## 9. Checklist
+## 🚀 6. Tecnologias Utilizadas
+<br>
 
--  Usar VanillaJS.
--  Não utilizar `this`.
--  Passa pelo linter (`npm run pretest`)
--  Passa pelos testes (`npm test`)
--  Testes unitários cobrem um mínimo de 70% de statements, functions, lines e branches.
--  Inclui uma _definição de produto_ clara e informativa no `README.md`.
--  Inclui histórias de usuário no `README.md`.
--  Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
--  Inclui uma lista de problemas detectados nos testes de usabilidade no `README.md`.
--  UI: Mostra lista/tabela/etc com dados e/ou indicadores.
--  UI: Permite ordenar dados por um ou mais campos (asc e desc).
--  UI: Permite filtrar dados com base em uma condição.
--  UI: É _responsivo_.
+ ![img](		https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+ Linguagem de marcação 
+
+  ![img](			https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+ Linguagem de estilização
+
+ ![img](	https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+ Linguagem de programação interpretada estrutura
+
+  ![img](	https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+ Sistemas de controle de versões distribuídos
+
+---
+## 👩‍💻 Colaboradoras 
+
+
+<table>
+  <tr>
+      <td align="center">
+            <a href="#">
+            <img src="https://avatars.githubusercontent.com/u/62296172?v=4" width="100px" alt="Foto de Bruna Calixto no GitHub"/><br>
+            <sub>
+            <b>Bruna Calixto</b><br>
+            </sub>
+            </a>
+      </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/83229430?v=4" width="100px;" alt="Foto de Carmen Gozza no GitHub"/><br>
+        <sub>
+          <b>Carmen Gozza</b><br>
+        </sub>
+      </a>
+    </td>
+   
+  </tr>
+</table>
+
+<table width="300">
+      <td>
+            <a href="https://github.com/bruna-devbio/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/brunacalixtodevjunior/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+      <td>
+            <a href="https://github.com/carmemilya"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/carmen-emilia-gozza/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+
+</table>
+
+
+

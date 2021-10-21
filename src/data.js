@@ -1,5 +1,5 @@
 
-export const getStatus = (data, statusSelected) => {
+export const getStatus = (data, statusSelected, type) => {
                                                   
   const getJson = data.filter(character => character.status === statusSelected);
   return getJson;                                                   
